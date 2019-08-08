@@ -1,4 +1,4 @@
-# java-gradle-multiprojext
+# java-gradle-multiproject
 Gradle (Java) で マルチプロジェクト を構成するサンプル
 
 ## Feature
