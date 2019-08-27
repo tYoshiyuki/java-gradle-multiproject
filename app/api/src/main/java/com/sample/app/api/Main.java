@@ -1,6 +1,6 @@
 package com.sample.app.api;
 
-import com.sample.common.GreetUtil;
+import com.sample.common.mainlib.GreetUtil;
 
 public class Main {
     public static void main(String[] args) {

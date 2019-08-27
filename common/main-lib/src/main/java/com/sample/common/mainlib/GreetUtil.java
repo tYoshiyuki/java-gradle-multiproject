@@ -1,4 +1,4 @@
-package com.sample.common;
+package com.sample.common.mainlib;
 
 public class GreetUtil{
     private GreetUtil() { }

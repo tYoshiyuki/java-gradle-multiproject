@@ -55,25 +55,31 @@ subprojects {
     }
 }
 
-project(':common') {
+project('common:main-lib') {
+    dependencies {
+    }
+}
+
+project('common:sub-lib') {
     dependencies {
     }
 }
 
 project('app:web') {
     dependencies {
-        implementation project(':common')
+        implementation project(':common:main-lib')
+        implementation project(':common:sub-lib')
     }
 }
 
 project('app:api') {
     dependencies {
-        implementation project(':common')
+        implementation project(':common:main-lib')
     }
 }
 
 project('app:batch') {
     dependencies {
-        implementation project(':common')
+        implementation project(':common:main-lib')
     }
 }

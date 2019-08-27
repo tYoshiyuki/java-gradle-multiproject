@@ -1,0 +1,4 @@
+rootProject.name = 'root'
+includeFlat 'common', 'app'
+include 'common:main-lib', 'common:sub-lib'
+include 'app:web', 'app:api', 'app:batch'
